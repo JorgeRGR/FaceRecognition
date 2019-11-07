@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="FaceRecognition.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+            <StackLayout>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+                <Image Margin="0,0,0,10" x:Name="imgSelected1" HeightRequest="150" Source="Selfie.jpeg" ></Image>
+                <Button x:Name="btnPick1" Text="Pick" Clicked="btnPick1_Clicked" />
+                <StackLayout HorizontalOptions="CenterAndExpand" Margin="10,0,0,10">
+                    <Label x:Name="lblTotalFace1" ></Label>
+                    <Label x:Name="lblGender1"></Label>
+                    <Label x:Name="lblAge1"></Label>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+                <Image Margin="0,0,0,10" x:Name="imgSelected2" HeightRequest="150" Source="Selfie.jpeg" ></Image>
+                <Button x:Name="btnPick2" Text="Pick" Clicked="btnPick2_Clicked" />
+                <StackLayout HorizontalOptions="CenterAndExpand" Margin="10,0,0,10">
+                    <Label x:Name="lblTotalFace2" ></Label>
+                    <Label x:Name="lblGender2"></Label>
+                    <Label x:Name="lblAge2"></Label>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout HorizontalOptions="CenterAndExpand" Margin="10,0,0,10">
+            <Label x:Name="lblIdentical" ></Label>
+            <Label x:Name="lblConfidence"></Label>
+        </StackLayout>
+        
+        <Button x:Name="btnCompare" Text="Compare" Clicked="btnCompare_Clicked" />
+
+         <Button x:Name="btnNext" Text="OCR" Clicked="BtnNext_Clicked" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

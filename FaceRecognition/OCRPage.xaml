@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="FaceRecognition.OCRPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+                <Image Margin="0,0,0,10" x:Name="imgSelected3" HeightRequest="250" Source="Selfie.jpeg" ></Image>
+                <Button x:Name="btnPick3" Text="Pick" Clicked="BtnPick3_Clicked" />
+                <StackLayout HorizontalOptions="CenterAndExpand" Margin="10,0,0,10">
+                    <Label x:Name="lblG1" ></Label>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

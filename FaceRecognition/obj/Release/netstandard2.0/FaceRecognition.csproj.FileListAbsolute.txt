@@ -1,0 +1,11 @@
+C:\Users\anawo\Documentos\FaceRecognition\FaceRecognition\bin\Release\netstandard2.0\FaceRecognition.deps.json
+C:\Users\anawo\Documentos\FaceRecognition\FaceRecognition\bin\Release\netstandard2.0\FaceRecognition.dll
+C:\Users\anawo\Documentos\FaceRecognition\FaceRecognition\bin\Release\netstandard2.0\FaceRecognition.pdb
+C:\Users\anawo\Documentos\FaceRecognition\FaceRecognition\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\anawo\Documentos\FaceRecognition\FaceRecognition\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\anawo\Documentos\FaceRecognition\FaceRecognition\obj\Release\netstandard2.0\OCRPage.xaml.g.cs
+C:\Users\anawo\Documentos\FaceRecognition\FaceRecognition\obj\Release\netstandard2.0\FaceRecognition.AssemblyInfoInputs.cache
+C:\Users\anawo\Documentos\FaceRecognition\FaceRecognition\obj\Release\netstandard2.0\FaceRecognition.AssemblyInfo.cs
+C:\Users\anawo\Documentos\FaceRecognition\FaceRecognition\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\anawo\Documentos\FaceRecognition\FaceRecognition\obj\Release\netstandard2.0\FaceRecognition.dll
+C:\Users\anawo\Documentos\FaceRecognition\FaceRecognition\obj\Release\netstandard2.0\FaceRecognition.pdb
